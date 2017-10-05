@@ -23,10 +23,13 @@ function displayWord(){
 	
 	link.html(word.value());
 	
+	
 }
 
 function askWordnik(){
 	loadJSON(url1 + word.value() + url2, gotData);
+	var col = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+	link.style('color',col);
 }
 
 function gotData(data){
@@ -35,6 +38,7 @@ function gotData(data){
 	var index2 = floor(random(data[index1].words.length));
 	wordMy = data[index1].words[index2];
 	link.html(wordMy);
+
 }
 
 
