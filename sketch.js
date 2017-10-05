@@ -27,6 +27,8 @@ function displayWord(){
 
 function askWordnik(){
 	loadJSON(url1 + word.value() + url2, gotData);
+	var col = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+	link.style('color',col);
 }
 
 function gotData(data){
