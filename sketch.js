@@ -1,7 +1,7 @@
 var url1='http://api.wordnik.com/v4/word.json/';
 // var word = 'rainbow';
 var word;
-var url2 = '/relatedWords?useCanonical=false&limitPerRelationshipType=10&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5';
+var url2 = '/relatedWords?useCanonical=false&limitPerRelationshipType=10&api_key=d67ed1c391f327050200107e80b0df3f01fc919055017a153';
 var link;
 var wordMy;
 
